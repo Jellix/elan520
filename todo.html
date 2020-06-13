@@ -1,0 +1,196 @@
+<html>
+<body>
+   <h1>ToDo</h2>
+   <table border="1" bgcolor="lightgrey">
+     <tr>
+       <th>Chapter</th>
+       <th>Title</th>
+       <th>Status <br/><small>(memory mapped registers)</small></th>
+       <th>Status <br/><small>(direct mapped registers)</small></th>
+       <th>Sources</th>
+     </tr>
+     <tr>
+       <td>1</td>
+       <td>Configuration Registers Overview</td>
+       <td bgcolor="yellow">partially implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td>
+         <a href="elan520-mmcr.ads">
+           Memory Mapped Configuration Registers
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>2</td>
+       <td>System Address Mapping Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td>
+         <a href="elan520-registers.ads">Registers</a>
+         <br/>
+         <a href="elan520-programmable_address_region.ads">
+           Programmable Address Region
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>3</td>
+       <td>Reset Generation Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td>
+         <a href="elan520-reset_generation_registers.ads">
+           Reset Generation Registers
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>4</td>
+       <td>Am5x86&reg; CPU Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         <a href="elan520-cpu_registers.ads">CPU Registers</a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>5</td>
+       <td>System Arbitration Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>6</td>
+       <td>PCI Bus Host Bridge Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>7</td>
+       <td>SDRAM Controller Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         <a href="elan520-sdram_controller_registers.ads">
+           SDRAM Controller Registers
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>8</td>
+       <td>Write Buffer and Read Buffer Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         <a href="elan520-sdram_buffer_control.ads">
+           SDRAM Buffer Control
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>9</td>
+       <td>ROM/Flash Controller Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>10</td>
+       <td>General Purpose Bus Controller Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         <a href="elan520-gp_bus_controller_registers.ads">
+           GP Bus Controller Registers
+         </a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>11</td>
+       <td>GP DMA Controller Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>12</td>
+       <td>Programmable Interrupt Controller Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>13</td>
+       <td>Programmable Interval Timer Registers</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>14</td>
+       <td>General Purpose Timer Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         <a href="elan520-gp_timer_registers.ads">GP Timer Registers</a>
+       </td>
+     </tr>
+     <tr>
+       <td>15</td>
+       <td>Software Timer Registers</td>
+       <td bgcolor="green">implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td>
+         Software Timer Registers
+         <a href="elan520-software_timer_registers.ads">spec,</a>
+         <a href="elan520-software_timer_registers.adb">body</a>
+         <br/>
+       </td>
+     </tr>
+     <tr>
+       <td>16</td>
+       <td>Watchdog Timer Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>17</td>
+       <td>Real-Time Clock Registers</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>18</td>
+       <td>UART Serial Port Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="red">not implemented</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>19</td>
+       <td>Synchronous Serial Interface Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td></td>
+     </tr>
+     <tr>
+       <td>20</td>
+       <td>Programmable Input/Output Registers</td>
+       <td bgcolor="red">not implemented</td>
+       <td bgcolor="lightgrey">N/A</td>
+       <td></td>
+     </tr>
+   </table>
+</body>
+</html>
